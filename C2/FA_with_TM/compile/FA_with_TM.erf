@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/My_Designs/S3/FA_with_TM/src/TestBench/adder4bit_TB.vhd" 
+MESSAGE "Compile Entity "adder4bit_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "adder4bit_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_adder4bit"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

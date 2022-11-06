@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/dsool/Desktop/Me/1 week/Az paria/S3/FA_with_TM/src/TestBench/bcdadder_TB.vhd" 
+MESSAGE "Compile Entity "bcdadder_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "bcdadder_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_bcdadder"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

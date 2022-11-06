@@ -1,0 +1,89 @@
+timestamp=1667728631957
+
+[~A]
+ModifyID=12
+Version=74
+
+[~MFT]
+0=10|0FA_with_TM.mgf|12483|2490
+1=2|1FA_with_TM.mgf|18624|10466
+3=1|3FA_with_TM.mgf|1864|440
+
+[adder4bit]
+A/adder_behave=21|../src/adder4bit.vhd|16|1*14434
+I=0*2057
+I/adder_behave=0*9635
+M=11|2|ve8|1666517197089|../src/adder4bit.vhd|0*1630*0x1fb21a504e3407f2d63993beec2b7d4e195905eb|0*1974*0x23b75c12e3e89f2ef000564498faa8c2
+M/adder_behave=21|2|ve8|1667728457018|../src/adder4bit.vhd|0*2297*0x72842583ef9828d55a22330ecf48a7c44db0349d|0*2860*0x20116f55b147878295aeff36dce7fc50
+R=../src/adder4bit.vhd|5
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|c5b3181c1f7843f44fabb435d692c52f7ed1962cd8a463e0c3cff0b107a8bcd61e14fe037fb3550ef7d7873b512d775b
+Version/adder_behave=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|43a480308915d6e0dcd1b8a953112e50fe2735c6be5e7a28f3d6ac6568b3c0942c9c5dbca4ce2c5ba5fcfcf3a3b9fb21
+
+[adder4bit_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/adder4bit_TB.vhd|10|1*4589
+BinW64/tb_architecture=3*440
+I=0*3696
+I/tb_architecture=I/TB_ARCHITECTURE 0*6530
+M=11|2|ve8|1666517410765|../src/TestBench/adder4bit_TB.vhd|0*3380*0x0f8cb557ed7e39ff14d8af59d53205640360ab68|0*3597*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1667698567259|../src/TestBench/adder4bit_TB.vhd|0*5603*0x488b5de774c2f1366a3f888270d365ea53ac25a0|0*6412*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/adder4bit_TB.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|694311ed6bc387f5035c1c9c8fe127263ffc63a329ce38dc5d50908688f773c5c8ebb2c61289e5d92e44d7c4d6a0ed76
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beafbf1d47f6eb2d1d6292d4d418bad0b2d
+
+[bcdadder]
+A/bcdadder_arch=A/BCDadder_arch 21|../src/BCDadder.vhd|16|1*12400
+BinW64/bcdadder_arch=3*950
+I=0*8339
+I/bcdadder_arch=I/BCDadder_arch 0*9346
+M=11|2|ve8|1667728395580|../src/BCDadder.vhd|0*7918*0xad8aee1c09bf76d4fe8de7af7fe46b3dc6a20a5f|0*8258*0x23b75c12e3e89f2ef000564498faa8c2
+M/bcdadder_arch=M/BCDadder_arch 21|2|ve8|1667728451735|../src/BCDadder.vhd|0*8578*0xc7f176c49e801ae57326c967637307c53afac36d|0*9248*0x20116f55b147878295aeff36dce7fc50
+R=../src/BCDadder.vhd|5
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|3efd39a8b11c67017f1b799c0befc73463ede40dd9baa959aab7086d44a552ff14cd657aae77855b0d7df27334da4184
+Version/bcdadder_arch=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|37bd64ba44b1015b6ec1a00aeb60e672099ede46ac29fff8644dc6c4be824930a544b058d5271c1857975d5c0e2ae658
+
+[bcdadder_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/bcdadder_TB.vhd|10|1*17159
+BinW64/tb_architecture=3*1864
+I=0*10608
+I/tb_architecture=I/TB_ARCHITECTURE 0*11770
+M=11|2|ve8|1667728631923|../src/TestBench/bcdadder_TB.vhd|0*10298*0x4a15c814595dff7ecc80fda364b2ae3456e9fc70|0*10511*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1667728631926|../src/TestBench/bcdadder_TB.vhd|0*10850*0x5deea22ca57a475531ce9a5bd245078be8ee699c|0*11654*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/bcdadder_TB.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|45c5a7f4a286412acd110148ed068b5b89e95095697e47185eadea8442a69a3618f33eb61f50ce9947cd7de0d82b8837
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea3c327005eaa3b41b739c4409a62034bf
+
+[full_adder]
+A/fa=A/FA 21|../src/FA.vhd|18|1*16243
+BinW64/fa=3*1424
+I=0*574
+I/fa=I/FA 0*9926
+M=11|2|ve8|1666517189582|../src/FA.vhd|0*195*0xe76949ba2d10b986c389e69d7bc57c0c799a4c4c|0*497*0x23b75c12e3e89f2ef000564498faa8c2
+M/fa=M/FA 21|2|ve8|1667728461325|../src/FA.vhd|0*815*0x7b1323de6247e48def091033eac9b8f4b1b84e97|0*1097*0x20116f55b147878295aeff36dce7fc50
+R=../src/FA.vhd|6
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933e13c3bea23c11ff7d01b80c4e42397217
+Version/fa=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|965eab90878040eda92bb9ca502f0d0e152c8a78ae1db6b0b41a62ec5d1c1e95
+
+[testbench_for_adder4bit]
+Configures=adder4bit_tb.TB_ARCHITECTURE
+E=1*6073
+I=0*7255
+M=2|2|ve8|1667698567327|../src/TestBench/adder4bit_TB.vhd|0*6826*0xc904e5f92832cf944d57020ce9e08f090c6d7e43|0*7130*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/adder4bit_TB.vhd|66
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e59f45287bfd36b3ea572976d21418d7c926527262ddaa47cb266f3a3c4d9b973a631132128c3656e733a1f23de0688254
+
+[testbench_for_bcdadder]
+Configures=bcdadder_tb.TB_ARCHITECTURE
+E=1*18624
+I=0*12483
+M=2|2|ve8|1667728631937|../src/TestBench/bcdadder_TB.vhd|0*12064*0xc7c0290632d1ad0b52d99afaffb8edae726ee495|0*12361*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/bcdadder_TB.vhd|66
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5aaffc4b95576f129cb0347df5b197cb4e84a1691e6da9ce6d04be600d23ca6a5
+
+[~U]
+adder4bit=Adder4bit 11|0*1424|
+adder4bit_tb=11|0*3250|
+bcdadder=BCDadder 11|0*7714|
+bcdadder_tb=11|0*10170|
+full_adder=11|0*0|
+testbench_for_adder4bit=TESTBENCH_FOR_adder4bit 2||
+testbench_for_bcdadder=TESTBENCH_FOR_bcdadder 2||

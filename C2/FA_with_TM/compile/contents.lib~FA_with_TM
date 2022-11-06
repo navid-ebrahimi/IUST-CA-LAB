@@ -1,0 +1,8 @@
+4
+~E 1 "../src/adder4bit.vhd" 5 Adder4bit
+~A 1 "../src/adder4bit.vhd" 16 adder_behave
+~E 1 "../src/TestBench/adder4bit_TB.vhd" 7 adder4bit_tb
+~A 1 "../src/TestBench/adder4bit_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/FA.vhd" 6 full_adder
+~A 1 "../src/FA.vhd" 18 FA
+~C 1 "../src/TestBench/adder4bit_TB.vhd" 66 testbench_for_adder4bit

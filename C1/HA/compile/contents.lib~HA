@@ -1,0 +1,6 @@
+5
+~E 1 "../src/HA.vhd" 6 HA
+~A 1 "../src/HA.vhd" 15 HA_arc
+~E 1 "../src/TestBench/ha_TB.vhd" 7 ha_tb
+~A 1 "../src/TestBench/ha_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/ha_TB.vhd" 58 testbench_for_ha
