@@ -1,0 +1,5 @@
+i<>.\src\FA.vhd
+i<>.\src\adder4bit.vhd
+i<>.\src\TestBench\adder4bit_TB.vhd
+i<>.\src\BCDadder.vhd
+i<>.\src\TestBench\bcdadder_TB.vhd
