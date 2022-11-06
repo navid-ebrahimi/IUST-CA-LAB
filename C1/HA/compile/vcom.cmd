@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/C1/HA/compile/HA.erf -d c:/My_Designs/C1/HA/compile -s c:/My_Designs/C1/library.cfg -j c:/My_Designs/C1/HA/projlib.cfg -work HA -O3 -e 100 -work HA -2002 c:/My_Designs/C1/HA/src/TestBench/ha_TB.vhd 

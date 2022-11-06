@@ -1,0 +1,164 @@
+I 000047 55 705           1665308606479 HA_arc
+(_unit VHDL(ha 0 6(ha_arc 0 15))
+	(_version ve8)
+	(_time 1665308606481 2022.10.09 13:13:26)
+	(_source(\../src/HA.vhd\))
+	(_parameters tan)
+	(_code cdcdcc98989a91dbcdc9d5979dcbc5cbcccbc5cbcc)
+	(_ent
+		(_time 1665308606411)
+	)
+	(_object
+		(_port(_int A -1 0 8(_ent(_in))))
+		(_port(_int B -1 0 9(_ent(_in))))
+		(_port(_int Sum -1 0 10(_ent(_out))))
+		(_port(_int C -1 0 11(_ent(_out))))
+		(_prcs
+			(line__17(_arch 0 0 17(_assignment(_trgt(2))(_sens(0)(1)))))
+			(line__18(_arch 1 0 18(_assignment(_trgt(3))(_sens(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_model . HA_arc 2 -1)
+)
+V 000047 55 705           1665308609843 HA_arc
+(_unit VHDL(ha 0 6(ha_arc 0 15))
+	(_version ve8)
+	(_time 1665308609844 2022.10.09 13:13:29)
+	(_source(\../src/HA.vhd\))
+	(_parameters tan)
+	(_code ecede2bfbebbb0faece8f4b6bceae4eaedeae4eaed)
+	(_ent
+		(_time 1665308606410)
+	)
+	(_object
+		(_port(_int A -1 0 8(_ent(_in))))
+		(_port(_int B -1 0 9(_ent(_in))))
+		(_port(_int Sum -1 0 10(_ent(_out))))
+		(_port(_int C -1 0 11(_ent(_out))))
+		(_prcs
+			(line__17(_arch 0 0 17(_assignment(_trgt(2))(_sens(0)(1)))))
+			(line__18(_arch 1 0 18(_assignment(_trgt(3))(_sens(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_model . HA_arc 2 -1)
+)
+I 000056 55 1013          1665309023201 TB_ARCHITECTURE
+(_unit VHDL(ha_tb 0 7(tb_architecture 0 10))
+	(_version ve8)
+	(_time 1665309023202 2022.10.09 13:20:23)
+	(_source(\../src/TestBench/ha_TB.vhd\))
+	(_parameters tan)
+	(_code 9bce9694c8cf998c9c9a89c1c29d9a9ecd9c9f9d99)
+	(_ent
+		(_time 1665308982023)
+	)
+	(_comp
+		(HA
+			(_object
+				(_port(_int A -1 0 14(_ent (_in))))
+				(_port(_int B -1 0 15(_ent (_in))))
+				(_port(_int Sum -1 0 16(_ent (_out))))
+				(_port(_int C -1 0 17(_ent (_out))))
+			)
+		)
+	)
+	(_inst UUT 0 32(_comp HA)
+		(_port
+			((A)(A))
+			((B)(B))
+			((Sum)(Sum))
+			((C)(C))
+		)
+		(_use(_ent . HA)
+		)
+	)
+	(_object
+		(_sig(_int A -1 0 21(_arch(_uni))))
+		(_sig(_int B -1 0 22(_arch(_uni))))
+		(_sig(_int Sum -1 0 24(_arch(_uni))))
+		(_sig(_int C -1 0 25(_arch(_uni))))
+		(_prcs
+			(line__40(_arch 0 0 40(_prcs(_wait_for)(_trgt(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_model . TB_ARCHITECTURE 1 -1)
+)
+I 000035 55 374 0 testbench_for_ha
+(_configuration VHDL (testbench_for_ha 0 58 (ha_tb))
+	(_version ve8)
+	(_time 1665309023225 2022.10.09 13:20:23)
+	(_source(\../src/TestBench/ha_TB.vhd\))
+	(_parameters tan)
+	(_code abffaafcfcfdfcbcafaab9f1ffadfeada8ada3aefd)
+	(_arch TB_ARCHITECTURE
+		(_inst UUT
+			(_ent . HA ha_arc
+			)
+		)
+	)
+	(_use(std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+)
+V 000056 55 1013          1665309034698 TB_ARCHITECTURE
+(_unit VHDL(ha_tb 0 7(tb_architecture 0 10))
+	(_version ve8)
+	(_time 1665309034699 2022.10.09 13:20:34)
+	(_source(\../src/TestBench/ha_TB.vhd\))
+	(_parameters tan)
+	(_code 78287279712c7a6f7f796a22217e797d2e7f7c7e7a)
+	(_ent
+		(_time 1665308982023)
+	)
+	(_comp
+		(HA
+			(_object
+				(_port(_int A -1 0 14(_ent (_in))))
+				(_port(_int B -1 0 15(_ent (_in))))
+				(_port(_int Sum -1 0 16(_ent (_out))))
+				(_port(_int C -1 0 17(_ent (_out))))
+			)
+		)
+	)
+	(_inst UUT 0 32(_comp HA)
+		(_port
+			((A)(A))
+			((B)(B))
+			((Sum)(Sum))
+			((C)(C))
+		)
+		(_use(_ent . HA)
+		)
+	)
+	(_object
+		(_sig(_int A -1 0 21(_arch(_uni))))
+		(_sig(_int B -1 0 22(_arch(_uni))))
+		(_sig(_int Sum -1 0 24(_arch(_uni))))
+		(_sig(_int C -1 0 25(_arch(_uni))))
+		(_prcs
+			(line__40(_arch 0 0 40(_prcs(_wait_for)(_trgt(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(NUMERIC_STD)))
+	(_model . TB_ARCHITECTURE 1 -1)
+)
+V 000035 55 374 0 testbench_for_ha
+(_configuration VHDL (testbench_for_ha 0 58 (ha_tb))
+	(_version ve8)
+	(_time 1665309034702 2022.10.09 13:20:34)
+	(_source(\../src/TestBench/ha_TB.vhd\))
+	(_parameters tan)
+	(_code 87d6818985d1d090838695ddd381d28184818f82d1)
+	(_arch TB_ARCHITECTURE
+		(_inst UUT
+			(_ent . HA ha_arc
+			)
+		)
+	)
+	(_use(std(standard))(ieee(NUMERIC_STD))(ieee(std_logic_1164)))
+)
