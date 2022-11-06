@@ -1,0 +1,1 @@
+-w -erf C:/My_Designs/S3/FA_with_TM/compile/FA_with_TM.erf -d C:/My_Designs/S3/FA_with_TM/compile -s C:/My_Designs/S3/library.cfg -j C:/My_Designs/S3/FA_with_TM/projlib.cfg -work fa_with_tm -O3 -e 100 -work fa_with_tm -2002 C:/My_Designs/S3/FA_with_TM/src/TestBench/adder4bit_TB.vhd 
