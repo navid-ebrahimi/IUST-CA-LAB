@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/C4/SevenSegment/compile/SevenSegment.erf -d c:/My_Designs/C4/SevenSegment/compile -s c:/My_Designs/C4/library.cfg -j c:/My_Designs/C4/SevenSegment/projlib.cfg -work SevenSegment -O3 -e 100 -work SevenSegment -2002 c:/My_Designs/C4/SevenSegment/src/TestBench/sevensegdecoder_TB.vhd 

@@ -1,0 +1,45 @@
+timestamp=1668332667613
+
+[~A]
+ModifyID=3
+Version=74
+
+[~MFT]
+0=10|0SevenSegment.mgf|3849|0
+1=2|1SevenSegment.mgf|2575|0
+3=1|3SevenSegment.mgf|443|0
+
+[sevensegdecoder]
+A/sevensegdecoder_behave=A/SevenSegDecoder_behave 21|../src/SevenSeg.vhd|11|1*0
+BinW64/sevensegdecoder_behave=3*0
+I=0*536
+I/sevensegdecoder_behave=I/SevenSegDecoder_behave 0*1340
+M=11|2|ve8|1668332505621|../src/SevenSeg.vhd|0*205*0x6dd723d61c9cf7bb2d840bf8030dc51477c4a627|0*448*0x23b75c12e3e89f2ef000564498faa8c2
+M/sevensegdecoder_behave=M/SevenSegDecoder_behave 21|2|ve8|1668332526343|../src/SevenSeg.vhd|0*744*0xfc23fb92ea5b12a70385c424bf33a099b689ae69|0*1226*0x20116f55b147878295aeff36dce7fc50
+R=../src/SevenSeg.vhd|4
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|0de61c233913a1a7dc45b3f2f6a7571efcc108c1282cacd5b517262719c3959e0067c5d5cc845b9340ddb4dcd0f0cc87
+Version/sevensegdecoder_behave=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|0de61c233913a1a7dc45b3f2f6a7571e356d8c8203ebaa2299c52bb6f970535844872a9e94daa541e028032c923b78ab
+
+[sevensegdecoder_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/sevensegdecoder_TB.vhd|9|1*1178
+BinW64/tb_architecture=3*443
+I=0*2039
+I/tb_architecture=I/TB_ARCHITECTURE 0*3079
+M=11|2|ve8|1668332667501|../src/TestBench/sevensegdecoder_TB.vhd|0*1713*0x1d1c1da558f568ba9f97ab1cb426773cb9568311|0*1928*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1668332667529|../src/TestBench/sevensegdecoder_TB.vhd|0*2250*0x4408321ad5470bd6ff2867cbbe5bc01253a0fa15|0*2949*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/sevensegdecoder_TB.vhd|6
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|0de61c233913a1a7dc45b3f2f6a7571e88e9557049e351989d62d44f69a4cbeb6637b12445df2f0fe94e5d69ad3f5b48
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea11ef6459b7aaeffa0df8dd751eaad817
+
+[testbench_for_sevensegdecoder]
+Configures=sevensegdecoder_tb.TB_ARCHITECTURE
+E=1*2575
+I=0*3849
+M=2|2|ve8|1668332667557|../src/TestBench/sevensegdecoder_TB.vhd|0*3344*0x3132134475c7637e6ff76ec35965a3e2f03b9ecf|0*3706*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/sevensegdecoder_TB.vhd|59
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e56db5ab48dfd43ecb33fdfa49337218bb9f179b3f664c5628343da00fa7ffdba3f4844996cc3aa0c5cbecc51c674325c8
+
+[~U]
+sevensegdecoder=SevenSegDecoder 11|0*0|
+sevensegdecoder_tb=11|0*1571|
+testbench_for_sevensegdecoder=TESTBENCH_FOR_sevensegdecoder 2||
