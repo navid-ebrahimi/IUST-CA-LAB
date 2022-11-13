@@ -1,0 +1,6 @@
+3
+~E 1 "../src/SevenSeg.vhd" 4 SevenSegDecoder
+~A 1 "../src/SevenSeg.vhd" 11 SevenSegDecoder_behave
+~E 1 "../src/TestBench/sevensegdecoder_TB.vhd" 6 sevensegdecoder_tb
+~A 1 "../src/TestBench/sevensegdecoder_TB.vhd" 9 TB_ARCHITECTURE
+~C 1 "../src/TestBench/sevensegdecoder_TB.vhd" 59 testbench_for_sevensegdecoder
