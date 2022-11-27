@@ -1,0 +1,317 @@
+V 000049 55 631           1669543060338 dff_arch
+(_unit VHDL(dff 0 4(dff_arch 0 12))
+	(_version ve8)
+	(_time 1669543060340 2022.11.27 13:27:40)
+	(_source(\../src/dff.vhd\))
+	(_parameters tan)
+	(_code bdb3ebe9efeaefabb8beabe7eabbb9bbbbbbbbbbb9)
+	(_ent
+		(_time 1669543039074)
+	)
+	(_object
+		(_port(_int D -1 0 6(_ent(_in))))
+		(_port(_int Q -1 0 7(_ent(_out))))
+		(_port(_int Qp -1 0 7(_ent(_out))))
+		(_port(_int CLK -1 0 8(_ent(_in)(_event))))
+		(_prcs
+			(line__14(_arch 0 0 14(_prcs(_trgt(1)(2))(_sens(0)(3)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . dff_arch 1 -1)
+)
+I 000056 55 1066          1669543544957 TB_ARCHITECTURE
+(_unit VHDL(dff_tb 0 6(tb_architecture 0 9))
+	(_version ve8)
+	(_time 1669543544958 2022.11.27 13:35:44)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code ce9eca9b9d999cdb9b9ada949dc8cac8c8c8c8cb98)
+	(_ent
+		(_time 1669543544929)
+	)
+	(_comp
+		(dff
+			(_object
+				(_port(_int D -1 0 13(_ent (_in))))
+				(_port(_int Q -1 0 14(_ent (_out))))
+				(_port(_int Qp -1 0 15(_ent (_out))))
+				(_port(_int CLK -1 0 16(_ent (_in))))
+			)
+		)
+	)
+	(_inst UUT 0 31(_comp dff)
+		(_port
+			((D)(D))
+			((Q)(Q))
+			((Qp)(Qp))
+			((CLK)(CLK))
+		)
+		(_use(_ent . dff)
+		)
+	)
+	(_object
+		(_sig(_int D -1 0 20(_arch(_uni))))
+		(_sig(_int CLK -1 0 21(_arch(_uni))))
+		(_sig(_int Q -1 0 23(_arch(_uni))))
+		(_sig(_int Qp -1 0 24(_arch(_uni))))
+		(_prcs
+			(line__40(_arch 0 0 40(_prcs(_wait_for)(_trgt(1))(_read(1)))))
+			(line__46(_arch 1 0 46(_prcs(_wait_for)(_trgt(0)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . TB_ARCHITECTURE 2 -1)
+)
+I 000036 55 361 0 testbench_for_dff
+(_configuration VHDL (testbench_for_dff 0 63 (dff_tb))
+	(_version ve8)
+	(_time 1669543544965 2022.11.27 13:35:44)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code dd8cd98f8c8b8acad9dccf8789db88dbdedbd5d88b)
+	(_arch TB_ARCHITECTURE
+		(_inst UUT
+			(_ent . dff dff_arch
+			)
+		)
+	)
+	(_use(std(standard))(ieee(std_logic_1164)))
+)
+I 000056 55 1002          1669543712014 TB_ARCHITECTURE
+(_unit VHDL(dff_tb 0 6(tb_architecture 0 9))
+	(_version ve8)
+	(_time 1669543712015 2022.11.27 13:38:32)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code 8485d48a86d3d691d68190ded782808282828281d2)
+	(_ent
+		(_time 1669543544928)
+	)
+	(_comp
+		(dff
+			(_object
+				(_port(_int D -1 0 13(_ent (_in))))
+				(_port(_int Q -1 0 14(_ent (_out))))
+				(_port(_int Qp -1 0 15(_ent (_out))))
+				(_port(_int CLK -1 0 16(_ent (_in))))
+			)
+		)
+	)
+	(_inst UUT 0 31(_comp dff)
+		(_port
+			((D)(D))
+			((Q)(Q))
+			((Qp)(Qp))
+			((CLK)(CLK))
+		)
+		(_use(_ent . dff)
+		)
+	)
+	(_object
+		(_sig(_int D -1 0 20(_arch(_uni))))
+		(_sig(_int CLK -1 0 21(_arch(_uni))))
+		(_sig(_int Q -1 0 23(_arch(_uni))))
+		(_sig(_int Qp -1 0 24(_arch(_uni))))
+		(_prcs
+			(line__46(_arch 0 0 46(_prcs(_wait_for)(_trgt(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . TB_ARCHITECTURE 1 -1)
+)
+I 000036 55 361 0 testbench_for_dff
+(_configuration VHDL (testbench_for_dff 0 69 (dff_tb))
+	(_version ve8)
+	(_time 1669543712020 2022.11.27 13:38:32)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code 8484d48a85d2d393808596ded082d18287828c81d2)
+	(_arch TB_ARCHITECTURE
+		(_inst UUT
+			(_ent . dff dff_arch
+			)
+		)
+	)
+	(_use(std(standard))(ieee(std_logic_1164)))
+)
+I 000056 55 1059          1669543886168 TB_ARCHITECTURE
+(_unit VHDL(dff_tb 0 6(tb_architecture 0 9))
+	(_version ve8)
+	(_time 1669543886169 2022.11.27 13:41:26)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code 0e0a0c085d595c1b5c001a545d080a080808080b58)
+	(_ent
+		(_time 1669543544928)
+	)
+	(_comp
+		(dff
+			(_object
+				(_port(_int D -1 0 13(_ent (_in))))
+				(_port(_int Q -1 0 14(_ent (_out))))
+				(_port(_int Qp -1 0 15(_ent (_out))))
+				(_port(_int CLK -1 0 16(_ent (_in))))
+			)
+		)
+	)
+	(_inst UUT 0 31(_comp dff)
+		(_port
+			((D)(D))
+			((Q)(Q))
+			((Qp)(Qp))
+			((CLK)(CLK))
+		)
+		(_use(_ent . dff)
+		)
+	)
+	(_object
+		(_sig(_int D -1 0 20(_arch(_uni))))
+		(_sig(_int CLK -1 0 21(_arch(_uni))))
+		(_sig(_int Q -1 0 23(_arch(_uni))))
+		(_sig(_int Qp -1 0 24(_arch(_uni))))
+		(_prcs
+			(line__45(_arch 0 0 45(_prcs(_wait_for)(_trgt(1)))))
+			(line__53(_arch 1 0 53(_prcs(_wait_for)(_trgt(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . TB_ARCHITECTURE 2 -1)
+)
+I 000036 55 361 0 testbench_for_dff
+(_configuration VHDL (testbench_for_dff 0 76 (dff_tb))
+	(_version ve8)
+	(_time 1669543886175 2022.11.27 13:41:26)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code 0e0b0c085e5859190a0f1c545a085b080d08060b58)
+	(_arch TB_ARCHITECTURE
+		(_inst UUT
+			(_ent . dff dff_arch
+			)
+		)
+	)
+	(_use(std(standard))(ieee(std_logic_1164)))
+)
+I 000056 55 1059          1669543892149 TB_ARCHITECTURE
+(_unit VHDL(dff_tb 0 6(tb_architecture 0 9))
+	(_version ve8)
+	(_time 1669543892150 2022.11.27 13:41:32)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code 5f5a0f5c0f080d4a0d514b050c595b595959595a09)
+	(_ent
+		(_time 1669543544928)
+	)
+	(_comp
+		(dff
+			(_object
+				(_port(_int D -1 0 13(_ent (_in))))
+				(_port(_int Q -1 0 14(_ent (_out))))
+				(_port(_int Qp -1 0 15(_ent (_out))))
+				(_port(_int CLK -1 0 16(_ent (_in))))
+			)
+		)
+	)
+	(_inst UUT 0 31(_comp dff)
+		(_port
+			((D)(D))
+			((Q)(Q))
+			((Qp)(Qp))
+			((CLK)(CLK))
+		)
+		(_use(_ent . dff)
+		)
+	)
+	(_object
+		(_sig(_int D -1 0 20(_arch(_uni))))
+		(_sig(_int CLK -1 0 21(_arch(_uni))))
+		(_sig(_int Q -1 0 23(_arch(_uni))))
+		(_sig(_int Qp -1 0 24(_arch(_uni))))
+		(_prcs
+			(line__45(_arch 0 0 45(_prcs(_wait_for)(_trgt(1)))))
+			(line__53(_arch 1 0 53(_prcs(_wait_for)(_trgt(0)(1)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . TB_ARCHITECTURE 2 -1)
+)
+I 000036 55 361 0 testbench_for_dff
+(_configuration VHDL (testbench_for_dff 0 76 (dff_tb))
+	(_version ve8)
+	(_time 1669543892153 2022.11.27 13:41:32)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code 5f5b0f5c0c0908485b5e4d050b590a595c59575a09)
+	(_arch TB_ARCHITECTURE
+		(_inst UUT
+			(_ent . dff dff_arch
+			)
+		)
+	)
+	(_use(std(standard))(ieee(std_logic_1164)))
+)
+V 000056 55 1056          1669543958772 TB_ARCHITECTURE
+(_unit VHDL(dff_tb 0 6(tb_architecture 0 9))
+	(_version ve8)
+	(_time 1669543958773 2022.11.27 13:42:38)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code b0b2b5e4b6e7e2a5e2b4a4eae3b6b4b6b6b6b6b5e6)
+	(_ent
+		(_time 1669543544928)
+	)
+	(_comp
+		(dff
+			(_object
+				(_port(_int D -1 0 13(_ent (_in))))
+				(_port(_int Q -1 0 14(_ent (_out))))
+				(_port(_int Qp -1 0 15(_ent (_out))))
+				(_port(_int CLK -1 0 16(_ent (_in))))
+			)
+		)
+	)
+	(_inst UUT 0 31(_comp dff)
+		(_port
+			((D)(D))
+			((Q)(Q))
+			((Qp)(Qp))
+			((CLK)(CLK))
+		)
+		(_use(_ent . dff)
+		)
+	)
+	(_object
+		(_sig(_int D -1 0 20(_arch(_uni))))
+		(_sig(_int CLK -1 0 21(_arch(_uni))))
+		(_sig(_int Q -1 0 23(_arch(_uni))))
+		(_sig(_int Qp -1 0 24(_arch(_uni))))
+		(_prcs
+			(line__45(_arch 0 0 45(_prcs(_wait_for)(_trgt(1)))))
+			(line__53(_arch 1 0 53(_prcs(_wait_for)(_trgt(0)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . TB_ARCHITECTURE 2 -1)
+)
+V 000036 55 361 0 testbench_for_dff
+(_configuration VHDL (testbench_for_dff 0 70 (dff_tb))
+	(_version ve8)
+	(_time 1669543958878 2022.11.27 13:42:38)
+	(_source(\../src/TestBench/dff_TB.vhd\))
+	(_parameters tan)
+	(_code 1d1e1b1a4c4b4a0a191c0f47491b481b1e1b15184b)
+	(_arch TB_ARCHITECTURE
+		(_inst UUT
+			(_ent . dff dff_arch
+			)
+		)
+	)
+	(_use(std(standard))(ieee(std_logic_1164)))
+)
