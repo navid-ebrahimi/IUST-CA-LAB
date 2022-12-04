@@ -1,0 +1,45 @@
+timestamp=1670149395032
+
+[~A]
+ModifyID=10
+Version=74
+
+[~MFT]
+0=14|0RAM_128_8.mgf|9559|5509
+1=4|1RAM_128_8.mgf|10440|7234
+3=2|3RAM_128_8.mgf|1929|1241
+
+[ram]
+A/ram_behave=A/RAM_behave 21|../src/RAM.vhd|16|1*7234
+BinW64/ram_behave=3*1241
+I=0*6775
+I/ram_behave=I/RAM_behave 0*7573
+M=11|2|ve8|1670149179808|../src/RAM.vhd|0*6354*0xa52a2c042d2d40952623225529243ccf471e04ae|0*6704*0x23b75c12e3e89f2ef000564498faa8c2
+M/ram_behave=M/RAM_behave 21|2|ve8|1670149179810|../src/RAM.vhd|0*7009*0xfe7cbc7a6cfd7a9f10e6c755ffb046889ba26682|0*7488*0x20116f55b147878295aeff36dce7fc50
+R=../src/RAM.vhd|5
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|a936fc2a703b3f48871772595baaafebc59cd6a665c3b56f9a1b9ca99cce3841
+Version/ram_behave=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|ace2a9791986cff725bcfabde2e9ee4ba3ab6f6f2ba734210ede2651492ad4025e32462b28de99dda72ad95db5fc1ff1
+
+[ram_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/ram_TB.vhd|10|1*8673
+BinW64/tb_architecture=3*1929
+I=0*4122
+I/tb_architecture=I/TB_ARCHITECTURE 0*8911
+M=11|2|ve8|1670148796506|../src/TestBench/ram_TB.vhd|0*3842*0x6e21f1de6499c95c0b801f1eb472b57ede269ffb|0*4035*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1670149395011|../src/TestBench/ram_TB.vhd|0*7818*0xcb763a7c4aa4eec17cc5118e5f3ebb9cb84ccbea|0*8805*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/ram_TB.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|676b75c08187e1a38c3506285f953c4281319a3756fc92ab17e3b81b76be00b5
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea7c69e461b3bec241e092227e8b528c37
+
+[testbench_for_ram]
+Configures=ram_tb.TB_ARCHITECTURE
+E=1*10440
+I=0*9559
+M=2|2|ve8|1670149395017|../src/TestBench/ram_TB.vhd|0*9198*0x214f12875b67d66729e212459dee2f622e47f0a3|0*9452*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/ram_TB.vhd|78
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5a4a2d4ebed62afcc6575d458e7057cb4573b2bd32fcd3fde9cc07dce9730bc06
+
+[~U]
+ram=RAM 11|0*6144|
+ram_tb=11|0*3724|
+testbench_for_ram=TESTBENCH_FOR_ram 2||
