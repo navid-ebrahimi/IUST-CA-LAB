@@ -1,0 +1,6 @@
+10
+~E 1 "../src/RAM.vhd" 5 RAM
+~A 1 "../src/RAM.vhd" 16 RAM_behave
+~E 1 "../src/TestBench/ram_TB.vhd" 7 ram_tb
+~A 1 "../src/TestBench/ram_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/ram_TB.vhd" 78 testbench_for_ram

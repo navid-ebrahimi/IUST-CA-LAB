@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/C6/RAM_128_8/compile/RAM_128_8.erf -d c:/My_Designs/C6/RAM_128_8/compile -s c:/My_Designs/C6/library.cfg -j c:/My_Designs/C6/RAM_128_8/projlib.cfg -work RAM_128_8 -O3 -e 100 -work RAM_128_8 -2002 c:/My_Designs/C6/RAM_128_8/src/TestBench/ram_TB.vhd 
