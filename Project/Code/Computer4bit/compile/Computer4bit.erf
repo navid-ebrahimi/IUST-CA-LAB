@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/Term 5/CA Lab/AZ/AZ/Computer4bit/src/TestBench/registerfile_TB.vhd" 
+MESSAGE "Compile Entity "registerfile_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "registerfile_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_registerfile"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]" 

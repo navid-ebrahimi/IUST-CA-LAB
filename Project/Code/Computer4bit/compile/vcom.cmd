@@ -1,0 +1,1 @@
+-w -erf "D:/Term 5/CA Lab/AZ/AZ/Computer4bit/compile/Computer4bit.erf" -d "D:/Term 5/CA Lab/AZ/AZ/Computer4bit/compile" -s "D:/Term 5/CA Lab/AZ/AZ/library.cfg" -j "D:/Term 5/CA Lab/AZ/AZ/Computer4bit/projlib.cfg" -work Computer4bit -O3 -e 100 -work Computer4bit -2002 "D:/Term 5/CA Lab/AZ/AZ/Computer4bit/src/TestBench/registerfile_TB.vhd" 

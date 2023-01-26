@@ -1,0 +1,26 @@
+150
+~E 1 "../src/ALU.vhd" 5 ALU
+~A 1 "../src/ALU.vhd" 15 ALU_behave
+~E 1 "../src/TestBench/alu_TB.vhd" 7 alu_tb
+~A 1 "../src/TestBench/alu_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/Controller.vhd" 5 Controller
+~A 1 "../src/Controller.vhd" 29 Controller_behave
+~E 1 "../src/TestBench/controller_TB.vhd" 7 controller_tb
+~A 1 "../src/TestBench/controller_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/InstructionMemory.vhd" 5 InstructionMemory
+~A 1 "../src/InstructionMemory.vhd" 19 InstructionMemory_behave
+~E 1 "../src/TestBench/instructionmemory_TB.vhd" 7 instructionmemory_tb
+~A 1 "../src/TestBench/instructionmemory_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/PC.vhd" 5 PC
+~A 1 "../src/PC.vhd" 14 PC_behave
+~E 1 "../src/TestBench/pc_TB.vhd" 7 pc_tb
+~A 1 "../src/TestBench/pc_TB.vhd" 10 TB_ARCHITECTURE
+~E 1 "../src/RegisterFile.vhd" 5 RegisterFile
+~A 1 "../src/RegisterFile.vhd" 18 RegisterFile_behave
+~E 1 "../src/TestBench/registerfile_TB.vhd" 7 registerfile_tb
+~A 1 "../src/TestBench/registerfile_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/alu_TB.vhd" 79 testbench_for_alu
+~C 1 "../src/TestBench/controller_TB.vhd" 78 testbench_for_controller
+~C 1 "../src/TestBench/instructionmemory_TB.vhd" 69 testbench_for_instructionmemory
+~C 1 "../src/TestBench/pc_TB.vhd" 86 testbench_for_pc
+~C 1 "../src/TestBench/registerfile_TB.vhd" 96 testbench_for_registerfile
