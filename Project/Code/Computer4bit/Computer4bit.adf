@@ -1,0 +1,89 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=Computer4bit
+
+[Library]
+Computer4bit=.\Computer4bit\Computer4bit.lib
+
+[$LibMap$]
+Computer4bit=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=controller_tb|TB_ARCHITECTURE|0 registerfile|RegisterFile_behave|0 registerfile_tb|testbench_for_registerfile|1  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/ALU.vhd=-1
+/ALUWaveform.asdb=-1
+/ALUWaveform.awc=-1
+/InstructionMemory.vhd=-1
+/InstructionMemoryWaveform.asdb=-1
+/InstructionMemoryWaveform.awc=-1
+/PC.vhd=-1
+/PCWaveform.asdb=-1
+/PCWaveform.awc=-1
+/RegisterFile.vhd=-1
+/Controller.vhd=-1
+/FinalResultsWavefrom.asdb=-1
+/FinalResultsWavefrom.awc=-1
+TestBench/alu_TB.vhd=-1
+TestBench/alu_TB_runtest.do=-1
+TestBench/instructionmemory_TB.vhd=-1
+TestBench/instructionmemory_TB_runtest.do=-1
+TestBench/pc_TB.vhd=-1
+TestBench/pc_TB_runtest.do=-1
+TestBench/registerfile_TB.vhd=-1
+TestBench/registerfile_TB_runtest.do=-1
+TestBench/controller_TB.vhd=-1
+TestBench/controller_TB_runtest.do=-1
+
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\ALUWaveform.asdb=Accelerated Waveform File
+.\src\ALUWaveform.awc=Accelerated Waveform Configuration
+.\src\InstructionMemory.vhd=VHDL Source Code
+.\src\InstructionMemoryWaveform.asdb=Accelerated Waveform File
+.\src\InstructionMemoryWaveform.awc=Accelerated Waveform Configuration
+.\src\PC.vhd=VHDL Source Code
+.\src\PCWaveform.asdb=Accelerated Waveform File
+.\src\PCWaveform.awc=Accelerated Waveform Configuration
+.\src\RegisterFile.vhd=VHDL Source Code
+.\src\Controller.vhd=VHDL Source Code
+.\src\FinalResultsWavefrom.asdb=Accelerated Waveform File
+.\src\FinalResultsWavefrom.awc=Accelerated Waveform Configuration
+.\src\TestBench\alu_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_TB_runtest.do=Macro
+.\src\TestBench\instructionmemory_TB.vhd=VHDL Test Bench
+.\src\TestBench\instructionmemory_TB_runtest.do=Macro
+.\src\TestBench\pc_TB.vhd=VHDL Test Bench
+.\src\TestBench\pc_TB_runtest.do=Macro
+.\src\TestBench\registerfile_TB.vhd=VHDL Test Bench
+.\src\TestBench\registerfile_TB_runtest.do=Macro
+.\src\TestBench\controller_TB.vhd=VHDL Test Bench
+.\src\TestBench\controller_TB_runtest.do=Macro
+
